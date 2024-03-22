@@ -10,6 +10,6 @@ class GreetingResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    fun hello() = "WOOOW IT WORKS"
+    fun hello() = "Change output..."
 
 }
