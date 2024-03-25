@@ -22,6 +22,7 @@ dependencies {
     implementation("io.quarkus:quarkus-resteasy-reactive")
 
     implementation("io.quarkus:quarkus-smallrye-health")
+    implementation("io.quarkus:quarkus-micrometer-registry-prometheus")
 
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:rest-assured")
